@@ -1,10 +1,220 @@
-echo "# edemaistour" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/EDemaisTour/edemaistour.git
-git push -u origin main
 git add .
-git commit -m "Atualização no site"
-git push
+git commit -m "Site da Agência de Lancha"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/edemaistour.git
+git push -u origin main
+
+
+
+/agencia_ É D+ TOUR/
+    ├── index.html
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Lancha Búzios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agência de Lancha Búzios</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Viva momentos inesquecíveis no mar!</h2>
+        <p>Aluguel de lanchas com conforto e segurança. Reserve seu passeio hoje mesmo!</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma agência de turismo especializada em passeios de lancha em Búzios. Nossa missão é proporcionar experiências inesquecíveis com conforto e segurança.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="card">
+            <h3>Passeios Personalizados</h3>
+            <p>Escolha seu roteiro e aproveite o melhor de Búzios em alto mar.</p>
+        </div>
+        <div class="card">
+            <h3>Lancha Premium</h3>
+            <p>Lanchas modernas e equipadas para seu conforto e segurança.</p>
+        </div>
+        <div class="card">
+            <h3>Pacotes Promocionais</h3>
+            <p>Ofertas especiais para grupos e eventos privados.</p>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/400x300/?boat" alt="Lancha 1">
+            <img src="https://source.unsplash.com/400x300/?sea" alt="Lancha 2">
+            <img src="https://source.unsplash.com/400x300/?ocean" alt="Lancha 3">
+            <img src="https://source.unsplash.com/400x300/?sunset" alt="Lancha 4">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agência de Lancha Búzios - Todos os direitos reservados.</p>
+        <p>Contato: (22) 9 992530482 | Email: edemaistour@outlook.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    ├── styles.css
+    /* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0F7FA;
+    color: #00334E;
+}
+
+header {
+    background-color: #0277BD;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #0288D1;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #B3E5FC;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #01579B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0277BD;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0288D1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+    ├── script.js
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio do formulário para propósitos de demonstração.
+    alert('Mensagem enviada! Obrigado pelo seu contato.');
+    document.getElementById('contact-form').reset(); // Limpa o formulário
+});
