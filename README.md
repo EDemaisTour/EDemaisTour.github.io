@@ -1,24 +1,31 @@
 # E D+ Tour
 
-Bem-vindo ao repositório da **E D+ Tour**! Somos uma agência de turismo especializada em proporcionar experiências inesquecíveis em Búzios, além de oferecer serviços de aluguel de lanchas para explorar as belezas da costa brasileira.
+![Logo da E D+ Tour](link-da-sua-imagem.png)  <!-- Substitua pelo link da imagem do logo da sua agência -->
 
-## Sobre Nós
+Bem-vindo ao repositório da **E D+ Tour**!  
+**E D+ Tour** é uma agência de turismo dedicada a oferecer experiências inesquecíveis em Búzios, com serviços de aluguel de lanchas para explorar as belezas da costa brasileira.
 
-Na **E D+ Tour**, nossa missão é oferecer aos nossos clientes as melhores opções de turismo e lazer em Búzios. Com uma equipe dedicada e experiente, garantimos que cada passeio seja seguro, divertido e repleto de momentos especiais.
+---
 
-## Serviços
+## 🌊 Sobre Nós
+
+Na **E D+ Tour**, nossa missão é proporcionar aos nossos clientes as melhores opções de turismo e lazer. Nossa equipe experiente garante que cada passeio seja:
+
+- 🟦 **Seguro**
+- 🟦 **Divertido**
+- 🟦 **Repleto de momentos especiais**
+
+---
+
+## 🛥️ Nossos Serviços
 
 Oferecemos uma variedade de serviços, incluindo:
 
-- **Passeios de Lanchas**: Descubra as praias paradisíacas de Búzios com nossos passeios personalizados.
-- **Aluguel de Lanchas**: Alugue uma lancha para explorar a costa no seu próprio ritmo.
-- **Excursões Turísticas**: Experiências guiadas pelas principais atrações de Búzios.
-- **Pacotes Personalizados**: Crie sua própria aventura com opções de pacotes sob medida.
+- 🌅 **Passeios de Lanchas**: Descubra as praias paradisíacas de Búzios com passeios personalizados.
+- 🛥️ **Aluguel de Lanchas**: Alugue uma lancha e explore a costa no seu próprio ritmo.
+- 🏖️ **Excursões Turísticas**: Experiências guiadas pelas principais atrações de Búzios.
+- 🏝️ **Pacotes Personalizados**: Crie sua própria aventura com pacotes sob medida.
 
-## Instalação
+---
 
-Para instalar e configurar os projetos que estejam neste repositório, siga estas etapas:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
